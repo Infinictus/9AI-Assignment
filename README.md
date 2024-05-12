@@ -33,34 +33,6 @@ The API will be available at http://localhost:8000.
 
 The API documentation is available at http://localhost:8000/docs.
 
-### Code Structure:
-
-blog-api/
-├── main.py
-├── models/
-│   ├── __init__.py
-│   ├── blog.py
-│   ├── comment.py
-│   ├── user.py
-├── repositories/
-│   ├── __init__.py
-│   ├── blog_repository.py
-│   ├── comment_repository.py
-│   ├── user_repository.py
-├── routers/
-│   ├── __init__.py
-│   ├── blog_router.py
-│   ├── comment_router.py
-│   ├── user_router.py
-├── services/
-│   ├── __init__.py
-│   ├── blog_service.py
-│   ├── comment_service.py
-│   ├── user_service.py
-├── .env
-├── requirements.txt
-└── README.md
-
 ### Models:
 
 blog.py: Defines the Blog model representing a blog post.
