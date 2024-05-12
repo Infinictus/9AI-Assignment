@@ -16,8 +16,6 @@ Activate the virtual environment:
 On Windows: env\Scripts\activate
 On Unix or macOS: source env/bin/activate
 
-Install the required dependencies: pip install -r requirements.txt
-
 ### Configuration:
 
 Create a .env file in the project root directory.
@@ -58,9 +56,6 @@ blog_service.py: Contains business logic and validation for blog-related operati
 comment_service.py: Contains business logic and validation for comment-related operations.
 user_service.py: Contains business logic and validation for user-related operations.
 main.py: The entry point of the application, where the FastAPI app is created and configured.
-Requirements:
-
-The requirements.txt file lists all the required Python packages for the project.
 
 ### Documentation:
 The API documentation is available at http://localhost:8000/docs when the server is running. It provides detailed information about the available endpoints, request/response formats, and example payloads.
